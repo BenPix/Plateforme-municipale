@@ -1,0 +1,16 @@
+Lors du rajout d'un module, il faut respecter un certain processus pour éviter des erreurs.
+- rajouter le module dans la base de données, table module
+- modifier settings_query_model -> ajouter l'insertion de la nouvelle ligne
+- modifier menu_model -> ajouter la fonction menu_custom_options_ du module
+		      -> ajouter la fonction menu_custom_ du module
+		      -> ajouter la fonction find_elements_to_blink_for_module_ du module
+		      -> dans la fonction set_elements, rajouter l'élément du menu dans la liste ordonnée
+- modifier rang_utilisateur_model -> ajouter la fonction build_ranks_for_ du module
+- modifier access_model -> ajouter la fonction dependence_for_module_ du module
+- dans le dossier model, créer un dossier du nom du module, qui contiendra un fichier nommé nom_du_module_model
+Ce model chargera tous les model nécessaires dans son constructeur
+- créer un dossier dans model/database_query/mysql/ qui contiendra tous les models du module
+- idem avec les views
+- essayer d'avoir un controleur indépendant qui se charge des pages en lien avec ce module
+- dans le controleur Settings, ajouter le module à l'array pour l'affichage du dropdown proposant les modules à activer dans le formulaire settings
+- modifier ce même array dans la partie form validation rules

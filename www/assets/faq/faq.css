@@ -1,0 +1,161 @@
+.container-fluid{
+    padding: 0px !important;
+}
+
+#entete{
+    background-color: orange;
+    padding-right: 0px !important;
+    max-width: 320px;
+    height: 100%;
+}
+
+#entete li li{
+    overflow: hidden;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#titre-menu{
+    font-size: 20px !important;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+form{
+  padding-left:20px;
+}
+
+.navigation{
+    background-color: rgb(157, 158, 160);
+    margin-top: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size:1em;
+}
+
+.navigation li{
+    list-style: none;
+}
+
+.navigation li a{
+    display: inline-block;
+    width: 100%;
+}
+
+li{
+    
+    padding-bottom: 10px;
+}
+
+.subMenu li{
+    background-color: lightgrey;
+    padding: 5px;
+    border-bottom: solid gray 1px;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.subMenu li a{
+    display: inline-block;
+    width: 100%;
+}
+
+.subMenu{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navigation a{
+    color: black!important;
+    text-decoration: none !important;}
+
+.navigation a:hover{
+    color:white !important;
+}
+
+li a{
+    color: #FF6600!important;
+    text-decoration: none !important;}
+
+li a:hover{
+    color:#993300 !important;
+}
+
+a{
+    color: black!important;
+    text-decoration: none !important;}
+
+a:hover{
+    color:gray !important;
+}
+
+.linked_arborescence a{
+    color:#FF6600 !important;
+}
+
+.linked_arborescence a:hover{
+    color:#993300 !important;
+}
+
+hr{
+    width: 95%;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#mon-contenu h1:not(.titre-provenant-du-menu){
+    font-size:1.5em !important;
+}
+
+#mon-contenu h2:not(.titre-provenant-du-menu){
+    font-size:1.5em !important;
+}
+
+#mon-contenu h3:not(.titre-provenant-du-menu){
+    font-size:1.5em !important;
+}
+
+#mon-contenu h4:not(.titre-provenant-du-menu){
+    font-size:1.5em !important;
+}
+
+.chapitre a{
+    color:#993300 !important;
+}
+
+.chapitre a:hover{
+    color:black !important;
+}
+
+blockquote{
+    padding: 10px;
+    border: solid gray 1px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px 1px lightgray;
+}
+
+#scroll-up-element{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    z-index: 999;
+    text-align: center;
+    padding-top: 7px;
+}
+
+#scroll-up-element:hover{
+    background: lightgray;
+    cursor: pointer;
+}
+
+    
+   
+
+ 
+
+
+

@@ -1,0 +1,162 @@
+.mbr-gallery-filter-all
+{
+	float:left;
+	list-style-type: none;
+}
+.form-control
+{
+	border-radius: 30px;
+}
+#form-date
+{
+	border-radius: 0px;
+}
+.tab
+{
+	width:90%;
+	margin: auto;
+}
+.tab-conge
+{
+	width:90%;
+	margin: auto;
+	border: solid black 3px;
+}
+.tab-pole
+{
+	width:100%;
+	margin: auto;
+	border: solid black 3px;
+}
+.tab2
+{
+	width:90%;
+	margin: auto;
+}
+td
+{
+	text-align :center;
+}
+tr
+{
+	text-align :center;
+}
+.error
+{
+	color: red;
+	font-size:18px;
+	text-align:center;
+}
+.stats-form
+{
+	margin-left: 60px;
+}
+#content8-j
+{
+	background-color: white;
+}
+#frame-jour
+{
+	background-color: #DDA0DD;
+	padding: 5px;
+	border-radius: 20px;
+}
+#frame-heure
+{
+	background-color: #ADD8E6;
+	padding: 5px;
+	border-radius: 20px;
+}
+#frame-demi-journee
+{
+	background-color: #FFCC66;
+	padding: 5px;
+	border-radius: 20px;
+}
+.input-horaire
+{
+	border-radius: 40px;
+	padding: 5px;
+	border: solid 2px #ADD8E6;
+	text-align: center;
+}
+body::after {
+  content: '';
+  display: block;
+  height: 90px;
+}
+.container-of-checkbox
+{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 10px;
+  
+}
+.container-of-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.container-of-checkbox:hover input ~ .mark-of-checkbox {
+  background-color: #ccc;
+}
+.container-of-checkbox input:checked ~ .mark-of-checkbox {
+  background-color: #2196F3;
+}
+.container-of-checkbox input:checked ~ .mark-of-checkbox:after {
+  display: block;
+}
+.mark-of-checkbox
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ddd;
+  margin-top: 5px;
+  border: solid #2196F3 1px;
+}
+.mark-of-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container-of-checkbox .mark-of-checkbox:after {
+  left: 7px;
+  top: 0px;
+  width: 10px;
+  height: 20px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.notif {
+  position: absolute;
+  top: -5px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  }
+  .notif-comms {
+  position: absolute;
+  top: 10px;
+  right: -7px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  }
